@@ -27,3 +27,4 @@ Connect the DHT11 to the NodeMCU as follows, this is the [pinout diagram](https:
 #define SECRET_CHANNEL_NUMBER Thinspeak channel number (integer, so not enclosed in quotes)
 #define SECRET_API_WRITE_KEY "Thingspeak channel api write key"
 ```
+- Install this DHT11 library: Sketch > Include Library > Manage Libraries... > Search for 'DHT11 saha' - there should only be one result, select it to install (really worth seeing the [README](https://github.com/dhrubasaha08/DHT11) for this library)
