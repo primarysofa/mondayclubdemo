@@ -17,3 +17,13 @@ Connect the DHT11 to the NodeMCU as follows, this is the [pinout diagram](https:
 - DHT11 data to NodeMCU GPIO2 (D4)
 
 # Code setup and upload
+- Install [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+- Clone this repo
+- Open Arduino IDE and then File > Open > tempMoisture.ino
+- Add a new file called arduino_secrets.h to root to contain secrets (do not put into version control).  It should contain the following:
+```
+#define SECRET_SSID "Wifi SSID"
+#define SECRET_PASSWORD "Wifi password"
+#define SECRET_CHANNEL_NUMBER Thinspeak channel number (integer, so not enclosed in quotes)
+#define SECRET_API_WRITE_KEY "Thingspeak channel api write key"
+```
