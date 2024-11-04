@@ -4,8 +4,8 @@ This a demonstration of connecting a temperature and humidity sensor to the clou
 When it works, the data can be viewed [here on Thinkspeak](https://thingspeak.mathworks.com/channels/1656908)
 
 ## Parts list
-- (from £1) DHT11 temperature and humidity sensor
-- (from £4) NodeMCU microcontroller
+- (from £1) [DHT11](https://thepihut.com/products/dht11-temperature-humidity-sensor) temperature and humidity sensor
+- (from £4) [NodeMCU](https://en.wikipedia.org/wiki/NodeMCU) microcontroller
 - (pence) female connecting wires
 - micro usb cable
 - Wifi hotspot
