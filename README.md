@@ -32,6 +32,8 @@ Connect the DHT11 to the NodeMCU as follows, this is the [pinout diagram](https:
 - Connect USB cable to NodeMCU and laptop and then Tools > Port > select your USB connection
 - Upload and run your code: Sketch > Upload
 
+**You can now plug your sensor into any usb power supply within the range of your configured (hotspot) wifi and it will repeatedly send the current temperature and humidity to your Thingspeak channel for you to enjoy anywhere :)**
+
 # Thingspeak setup
 [Thingspeak](https://thingspeak.mathworks.com/pages/learn_more) is a IoT platform with a free tier that I've been using to upload sensor data to.  For free, it allows you to setup 4 channels to upload to, with 8 fields per channel, so in our example we need 1 channel that will receive data for the two fields temperature and moisture.  The free tier allows you to upload data every 15s, with a maximum of 3 million uploads per year.
 
